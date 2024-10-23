@@ -1,1 +1,31 @@
+Overall Look and Feel of Schelper
+===============================
 
+The overall look and feel should be minimalist and flat.
+The website should be calm and gentle for the user.
+
+Colours
+========
+For Schelper, the colors on display represent calm and pleasure.
+Here are our color samples:
+
+#F39B6B
+#46B0E2
+#FFFAEE
+
+
+Iconography
+===========
+We will focus on using icons that have a 'flat' design.
+
+Typography
+==========
+We will be using Georgia for small text and Calibri for titles text from Google Fonts.
+
+Links
+=====
+Links will not be underlined and should change color when a user hovers over it.
+
+Buttons
+=======
+Buttons will be designed using the chosen colors outlined above.
