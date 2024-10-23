@@ -1,3 +1,6 @@
+Fonts:
+Georgia(Small text), Calibri (Bigger logos)
+
 COLOUR THEME:
 
 
