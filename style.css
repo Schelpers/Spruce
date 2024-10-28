@@ -127,3 +127,45 @@ a:hover {
     line-height: 1.5;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/*________________Princing Page Css________________*/
+
+
+.PricingBox{
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.pricelist {
+    
+    display: flex;
+    width: 50%;
+    padding-left: 25% ;
+    padding-right: 25%;
+    gap: 20px; 
+}
+
+.pricelist div {
+    width: 100%;
+    padding: 34px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color:#F39B6B;
+    text-align: center;
+}
+
+.pricelist button {
+    background-color: #333; 
+    color: white;
+    border: none; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    }
