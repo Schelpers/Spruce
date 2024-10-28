@@ -1,1 +1,129 @@
+/* General Styles */
+body {
+    background-color: #FFFAEE;
+    font-family: Georgia, serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
+
+
+
+/* Header */
+header {
+    background-color: #46B0E2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; /* Space between logo image and title */
+}
+
+header strong {
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.5rem;
+    color: #FFFAEE;
+}
+
+/* Sign In Button */
+header button {
+    background-color: #F39B6B;
+    color: #FFFAEE;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-family: 'Calibri', sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+header button:hover {
+    background-color: #46B0E2;
+    color: #FFFAEE;
+}
+
+
+
+
+
+
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Product Section */
+.product-section {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.product-section img {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+    display: block;
+    font-family: Georgia, serif;
+    color: #333;
+    margin-top: 1rem;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+/* Buttons */
+button {
+    background-color: #F39B6B;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-family: 'Calibri', sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #46B0E2;
+}
+
+/* Link Styling */
+a {
+    color: #46B0E2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #F39B6B;
+}
+
+/* Product Description Box */
+.description-box {
+    background-color: #FFFAEE;
+    border: 1px solid #F39B6B;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+    max-width: 600px;
+    line-height: 1.5;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
