@@ -1,0 +1,16 @@
+/* Prevent page scrolling */
+html, body {
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Adjust landing section to fit within the viewport */
+.landing {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

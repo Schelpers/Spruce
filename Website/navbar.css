@@ -1,0 +1,48 @@
+/* Header with Gradient */
+header {
+    background: linear-gradient(45deg, #46B0E2, #F39B6B);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box; 
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+header .nav-links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1400px;
+}
+
+header .nav-links a {
+    font-family: 'Calibri', sans-serif;
+    color: #FFFAEE;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+header .nav-links a:hover {
+    color: #46B0E2;
+}
+
+body {
+    margin-top: 80px; 
+}
