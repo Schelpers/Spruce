@@ -41,7 +41,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 10px; /* Added margin to space out the button from the text */
+    margin-top: 10px; 
 }
 
 .team-member button:hover {
@@ -60,7 +60,7 @@ h1 {
     font-family: 'Calibri', sans-serif;
     color: #46B0E2;
     font-size: 2.5rem;
-    margin-top: 100px; /* Space for header */
+    margin-top: 100px; 
     animation: fadeIn 1s ease-out;
 }
 
